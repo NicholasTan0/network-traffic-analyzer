@@ -8,7 +8,7 @@ load_layer("http")
 load_layer("tls")
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="Argus Network Sniffer")
+    parser = argparse.ArgumentParser(description="Network Sniffer")
     parser.add_argument("-i", dest="interface", help="Interface")
     parser.add_argument("-r", dest="tracefile", help="Tracefile")
     parser.add_argument("expression", nargs="?", help="BPF filter expression")
